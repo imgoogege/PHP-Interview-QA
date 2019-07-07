@@ -2,9 +2,17 @@
 
 结合实际PHP面试，汇总自己遇到的问题，以及网上其他人遇到的问题，尝试提供简洁准确的答案
 
-网络、数据结构与算法、PHP、Web、MySQL、Redis、Linux、安全、设计模式、架构、面试等部分
+包含网络、数据结构与算法、PHP、Web、MySQL、Redis、Linux、安全、设计模式、架构、面试等部分
 
 > 本仓库将持续更新，fork 无法看到最新内容，建议 Watch 或 Star ~~
+
+**温馨提示**
+
+- 分享面试遇到的问题，通过提交 Issue
+
+- 参与项目内容完善，通过提交 PR，提交内容请尽量保证`准确性`和`可读性`
+
+- 本仓库需要什么内容：`实际经典面试题` + `靠谱简答` + `详细深入文章(必要的话)`
 
 ## 面试流程
 
@@ -18,28 +26,30 @@
 
 ## 问题列表
 
-### 网络协议篇
+### 网络篇
 
-- [计算机网络体系结构](./docs/01.网络/QA.md#计算机网络体系结构)
-- [UDP 的主要特点](./docs/01.网络/QA.md#udp-的主要特点)
-- [TCP 的主要特点](./docs/01.网络/QA.md#tcp-的主要特点)
-- [简述三报文握手建立 TCP 连接](./docs/01.网络/QA.md#简述三报文握手建立-tcp-连接)
-- [建立 TCP 连接为什么最后还要发送确认](./docs/01.网络/QA.md#建立-tcp-连接为什么最后还要发送确认)
-- [简述 TCP 连接的释放](./docs/01.网络/QA.md#简述-tcp-连接的释放)
-- [TIME-WAIT 是什么，为什么必须等待 2MLS](./docs/01.网络/QA.md#time-wait-是什么为什么必须等待-2mls)
-- [TCP 粘包问题](./docs/01.网络/QA.md#tcp-粘包问题)
-- [UDP、TCP 区别，适用场景](./docs/01.网络/QA.md#udptcp-区别适用场景)
-- [建立 socket 需要哪些步骤](./docs/01.网络/QA.md#建立-socket-需要哪些步骤)
-- [DNS 主要作用是什么](./docs/01.网络/QA.md#dns-主要作用是什么)
-- [HTTP 报文组成](./docs/01.网络/QA.md#http-报文组成)
-- [HTTP 状态码](./docs/01.网络/QA.md#http-状态码)
-- [常见的 HTTP 方法](./docs/01.网络/QA.md#常见的-http-方法)
-- [HTTP 优缺点](./docs/01.网络/QA.md#http-优缺点)
-- [HTTPS 通信原理](./docs/01.网络/QA.md#https-通信原理)
-- [HTTP 2.0](./docs/01.网络/QA.md#http-2.0)
-- [IPv6 与 IPv4 有什么变化](./docs/01.网络/QA.md#ipv6-与-ipv4-有什么变化)
-- [什么是心跳机制](./docs/01.网络/QA.md#什么是心跳机制)
-- [什么是长连接](./docs/01.网络/QA.md#什么是长连接)
+- [计算机网络体系结构](./docs/01.网络.md#1-计算机网络体系结构)
+- [UDP 的主要特点](./docs/01.网络.md#2-udp-的主要特点)
+- [TCP 的主要特点](./docs/01.网络.md#3-tcp-的主要特点)
+- [简述三报文握手建立 TCP 连接](./docs/01.网络.md#4-简述三报文握手建立-tcp-连接)
+- [建立 TCP 连接为什么最后还要发送确认](./docs/01.网络.md#5-建立-tcp-连接为什么最后还要发送确认)
+- [简述 TCP 连接的释放](./docs/01.网络.md#6-简述-tcp-连接的释放)
+- [TIME-WAIT 是什么，为什么必须等待 2MLS](./docs/01.网络.md#7-time-wait-是什么为什么必须等待-2mls)
+- [TCP 粘包问题](./docs/01.网络.md#8-tcp-粘包问题)
+- [UDP、TCP 区别，适用场景](./docs/01.网络.md#9-udptcp-区别适用场景)
+- [建立 socket 需要哪些步骤](./docs/01.网络.md#10-建立-socket-需要哪些步骤)
+- [DNS 主要作用是什么](./docs/01.网络.md#11-dns-主要作用是什么)
+- [HTTP 报文组成](./docs/01.网络.md#12-http-报文组成)
+- [HTTP 状态码](./docs/01.网络.md#13-http-状态码)
+- [常见的 HTTP 方法](./docs/01.网络.md#14-常见的-http-方法)
+- [GET 与 POST 请求方式区别](./docs/01.网络.md#15-get-与-post-请求方式区别)
+- [HTTP 优缺点](./docs/01.网络.md#16-http-优缺点)
+- [HTTPS 通信原理](./docs/01.网络.md#17-https-通信原理)
+- [HTTP 2.0](./docs/01.网络.md#18-http-20)
+- [WebSocket](./docs/01.网络.md#19-websocket)
+- [IPv6 与 IPv4 有什么变化](./docs/01.网络.md#20-ipv6-与-ipv4-有什么变化)
+- [什么是心跳机制](./docs/01.网络.md#21-什么是心跳机制)
+- [什么是长连接](./docs/01.网络.md#22-什么是长连接)
 
 ### 数据结构与算法篇
 
@@ -68,7 +78,9 @@
 - [客户端/服务端 IP 获取，了解代理透传 实际IP 的概念](./docs/03.PHP/QA.md#客户端服务端-ip-获取了解代理透传-实际ip-的概念)
 - [类的静态调用和实例化调用](./docs/03.PHP/QA.md#类的静态调用和实例化调用)
 - [PHP 不实例化调用方法](./docs/03.PHP/QA.md#php-不实例化调用方法)
-- [php.ini 配置选项，ini_set 动态设置](./docs/03.PHP/QA.md#phpini-配置选项ini_set-动态设置)
+- [php.ini 配置选项](./docs/03.PHP/QA.md#phpini-配置选项)
+- [php-fpm.conf 配置](./docs/03.PHP/QA.md#php-fpmconf-配置)
+- [502、504 错误产生原因及解决方式](./docs/03.PHP/QA.md#502504-错误产生原因及解决方式)
 - [如何返回一个301重定向](./docs/03.PHP/QA.md#如何返回一个301重定向)
 - [PHP 与 MySQL 连接方式](./docs/03.PHP/QA.md#php-与-mysql-连接方式)
 - [MySQL、MySQLi、PDO 区别](./docs/03.PHP/QA.md#mysqlmysqlipdo-区别)
@@ -170,7 +182,9 @@
 - [计划任务](./docs/07.Linux/QA.md#计划任务)
 - [Vim](./docs/07.Linux/QA.md#vim)
 - [负载查看](./docs/07.Linux/QA.md#负载查看)
+- Linux 内存管理
 - [进程、线程、协程区别](./docs/07.Linux/QA.md#进程线程协程区别)
+- 进程间通信与信号机制
 
 ### 安全篇
 

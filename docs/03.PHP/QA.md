@@ -215,6 +215,14 @@ ini_set('memory_limit', '256M'); //设置最大内存限制
 
 - Nginx+PHP 架构，可以调整 FastCGI 超时时间，fastcgi_connect_timeout、fastcgi_send_timeout、fastcgi_read_timeout
 
+#### 500
+
+php 代码问题，文件权限问题，资源问题
+
+#### 503
+
+超载或者停机维护
+
 ### 如何返回一个301重定向
 
 ```php
